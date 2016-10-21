@@ -1,0 +1,51 @@
+<!doctype>
+<html>
+
+
+<head>
+    <title>Form</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="scripts.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Bungee+Inline|Indie+Flower" rel="stylesheet">
+
+
+</head>
+
+
+<body>
+    <div class="bg-fill"></div>
+    <header style="font-family:'Bungee Inline', cursive;" class="fontColor">Thank You For Your Feedback!</header>
+    <hr>
+    <form style="font-family:'Indie Flower', cursive;" class="fontColor">
+        <center>First name:
+            <input type="text" name="first_name" />
+        </center>
+        <br>
+        <center>Last name:
+            <input type="text" name="last_name" />
+        </center>
+        <hr>
+        <br>Feedback :
+        <br />
+        <br>
+        <center>
+            <textarea placeholder="Tell Me Everything..." rows="5" cols="50" name="description" style="font-family:'Indie Flower', cursive;" class="fontColor">
+                Tell Me Everything...
+            </textarea>
+        </center>
+        <hr>
+        <input type="checkbox" name="maths" value="on"> I Liked This Website!
+        <input type="checkbox" name="physics" value="on"> I Did Not Like This Website
+        <br>
+
+    </form>
+    <div class="feedback">
+        <p class="button" id="test" onclick="$('#test').click( function() { alert('Thank You For Your Feedback Even Though It Will Never Be Read'); });">Submit</p>
+    </div>
+
+</body>
+
+</html>

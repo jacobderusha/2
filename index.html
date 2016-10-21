@@ -1,0 +1,42 @@
+<!doctype html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale = 1">
+    <title>
+        Nothing
+    </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="scripts.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Bungee+Inline|Indie+Flower" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="bg-fill"></div>
+    <form action="action_page.php">
+        <div class="imgcontainer">
+            <img onclick="changeImage()" src="Nothing.png" alt="Avatar" class="avatar" id="avatar">
+        </div>
+
+        <div class="container">
+            <label><b style="font-family:'Indie Flower', cursive;">Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+
+            <label><b style="font-family:'Indie Flower', cursive;">Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+
+            <button id="switch" type="submit"><a href="index2.html">Login</a></button>
+            <div>
+                <input type="checkbox" checked="checked"> <a style="font-family:'Indie Flower', cursive;">Remember me</a></div>
+        </div>
+
+        <div class="container" style="background-color:#f1f1f1">
+            <button type="button" class="cancelbtn"><a href="Index3.html">Cancel</a></button>
+            <span class="psw"><a href="index4.html" style="font-family:'Indie Flower', cursive;"> Forgot password?</a></span>
+        </div>
+    </form>
+</body>
